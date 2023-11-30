@@ -1,0 +1,107 @@
+*[border]{
+  border-color: white !important;
+}
+
+body {
+  background-attachment: fixed !important;
+    background-clip: border-box !important;
+    background-color: transparent !important;
+    background-image: url(https://i.imgur.com/n4oQYhy.jpg) !important;
+    background-position: 25% 0 !important;
+    background-repeat: no-repeat no-repeat !important;
+    background-size: cover !important;
+    font-family: Autour One !important;
+}
+
+.sidebar-group:not(.sidebar-input) {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  padding: 5px;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+}
+
+.sidebar-group:not(.sidebar-input):nth-of-type(1){
+  border-top: 1px solid white !important;
+  border-radius: 20px 20px 0px 0px !important;
+}
+.sidebar-group:not(.sidebar-input):last-of-type{
+  border-bottom: 1px solid white !important;
+  border-radius: 0px 0px 20px 20px !important;
+}
+.custom-slider-wrapper{
+  width: calc(100% - 20px) !important;
+}
+
+.view-content-wrapper {
+  border-color: white !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.columns-wrapper{
+  padding-top: 0px !important;
+}
+.hero-image-container{
+  background-position: 60% 0 !important;
+  background-repeat: no-repeat no-repeat !important;
+  background-size: contain !important;
+  box-shadow: none !important;
+}
+
+body.in-progress .hero-image-container{
+  background-image: url("https://i.imgur.com/rGXh9lj.png") !important;
+}
+body.completed .hero-image-container{
+  background-image: url("https://i.imgur.com/QFDwYip.png") !important;
+}
+body.skip .hero-image-container{
+  background-image: url("https://i.imgur.com/LIl3pZl.png") !important;
+}
+body.hold .hero-image-container{
+  background-image: url("https://i.imgur.com/CJpWzvJ.png") !important;
+}
+body.dropped .hero-image-container{
+  background-image: url("https://i.imgur.com/5GMIKos.png") !important;
+}
+body.plan .hero-image-container{
+  background-image: url("https://i.imgur.com/76BMj8W.png") !important;
+}
+body.all .hero-image-container{
+  background-image: url("https://i.imgur.com/83Sto2l.png") !important;
+}
+
+.sidebarList-header::before, .MuiAccordionSummary-content::before{
+  background-color: #FABF27 !important;
+}
+.MuiSlider-thumb{
+  background-color: white !important;
+}
+.navigation-wrapper{
+  position: relative !important;
+}
+
+.custom-dropdown .custom-dropdown-control:hover svg {
+    color: #FABF27 !important;
+}
+.input-wrapper, .sidebar-list-item > a.is-active, .custom-dropdown-control, .table-header-label, .listRowDesktop-wrapper{
+  background-color: rgb(0 0 0 / 50%) !important;
+}
+.custom-dropdown > [class$="-menu"]{
+  background-color: rgb(0 0 0 / 90%) !important;
+}
+input{
+  color: white !important;
+}
+.footer-text::after{
+  content: " Wygląd stworzył Socrates" !important;
+  font-size: small !important;
+}
+.rowTitleInfo-inner{
+  background-attachment: fixed !important;
+    background-clip: border-box !important;
+    background-image: url(https://i.imgur.com/UuxjZDm.jpg) !important;
+    background-position: 25% 0 !important;
+    background-repeat: no-repeat no-repeat !important;
+    background-size: cover !important;
+  border: 1px solid white !important;
+  border-radius: 20px !important;
+  padding: 10px !important;
+}
